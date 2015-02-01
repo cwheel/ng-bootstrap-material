@@ -15,10 +15,7 @@
     "material",
     "design",
     "bootstrap",
-    "angular",
-    "angular",
-    "material",
-    "design"
+    "angular"
   ],
   "license": "MIT",
   "ignore": [
