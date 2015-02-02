@@ -4,10 +4,10 @@ Let Angular play nicely with [bootstrap-material-design](https://github.com/FezV
 ngBootstapMaterial, simple as it may be, provides the glue between AngularJS and the [bootstrap-material-design](https://github.com/FezVrasta/bootstrap-material-design) theme. Normally, you'd need to call `$.material.init()` in a controller to enable the material design effects. However, due to the way bindings work in Angular, making this call will 'disconnect' any bindings your controller may have. To get around this you can wrap [bootstrap-material-design](https://github.com/FezVrasta/bootstrap-material-design)'s functions in compile directives.
 
 The directives are:
-`materialInput`
-`materialRipple`
-`materialCheckbox`
-`materialRadio`
+`material-input`
+`material-ripple`
+`material-checkbox`
+`material-radio`
 
 Use like so:
 
