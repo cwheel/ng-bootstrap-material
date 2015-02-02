@@ -3,25 +3,25 @@
 angular.module('ngBootstrapMaterial', []).directive('materialInput', function() {
     return {
         compile: function(elem, attr, tr) {
-          $.material.input("#" + attr.id);
+          $.material.input(elem[0]);
         }
     };
 }).directive('materialRipple', function() {
     return {
         compile: function(elem, attr, tr) {
-          $.material.ripples("#" + attr.id);
+          $.material.ripples(elem[0]));
         }
     };
 }).directive('materialCheckbox', function() {
     return {
         compile: function(elem, attr, tr) {
-          $.material.checkbox("#" + attr.id);
+          $.material.checkbox(elem[0]));
         }
     };
 }).directive('materialRadio', function() {
     return {
         compile: function(elem, attr, tr) {
-          $.material.radio("#" + attr.id);
+          $.material.radio(elem[0]));
         }
     };
 });
